@@ -1,6 +1,4 @@
-# Building Your Own Kafka-like System From Scratch: A Step-by-Step Guide
-
-If you're looking to truly understand Kafka's architecture by implementing a simplified version yourself, you've come to the right place. Rather than just copying code, we'll build SimpleKafka incrementally, understanding each component as we go. This approach will give you a deep understanding of distributed messaging systems.
+# Building Your Own Kafka-like System From Scratch:
 
 ## Workflow Summary
 This incremental staged approach allows you to build and understand each component of a Kafka-like system starting from stage 1 to stage 7 in detail:
