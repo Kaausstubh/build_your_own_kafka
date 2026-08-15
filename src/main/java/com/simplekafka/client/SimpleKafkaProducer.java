@@ -102,7 +102,7 @@ public class SimpleKafkaProducer {
             System.out.println("Producer initialized. Sending 10 messages...");
             
             // Send 10 messages
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 20; i++) {
                 String message = "Message " + i + " - " + System.currentTimeMillis();
                 long offset = producer.send(message);
                 System.out.println("Sent message to offset: " + offset);
